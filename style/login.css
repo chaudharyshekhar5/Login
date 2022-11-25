@@ -1,0 +1,219 @@
+body {
+  background-color: aqua;
+}
+.container {
+  justify-content: center;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  margin-top: 180px;
+  margin-left: 50px;
+  width: 400px;
+  padding-left: 50px;
+  position: relative;
+}
+.form {
+  margin-left: 40px;
+  background-color: aqua;
+  margin-top: 50px;
+  border: 2px 2px red;
+}
+.header {
+  font-size: 30px;
+  align-items: center;
+  justify-content: center;
+  margin-left: 180px;
+  margin-bottom: 30px;
+}
+.email_part {
+  margin: 20px;
+}
+.email-label {
+  margin-right: 20px;
+  margin-left: 50px;
+  font-size: 25px;
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  text-shadow: 2px 1px yellow;
+  background-color: antiquewhite;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.password_part {
+  margin: 20px;
+}
+.password-label {
+  margin-right: 50px;
+  font-size: 25px;
+  margin-left: 65px;
+  margin-top: 15px;
+  border: 2px solid black;
+  padding: 5px;
+  text-shadow: 2px 1px yellow;
+  background-color: antiquewhite;
+}
+.checkbox-check {
+  margin-left: 200px;
+  font-size: 20px;
+}
+.checkbox-check a {
+  margin-left: 23px;
+  text-decoration: none;
+  color: black;
+}
+.signin .btn {
+  font-size: 20px;
+  margin-left: 130px;
+  margin-top: 15px;
+}
+.signin .btn:hover {
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: antiquewhite;
+}
+.divider {
+  font-size: 20px;
+  margin-top: 15px;
+}
+.text-or {
+  margin-left: 160px;
+}
+.connect {
+  text-align: center;
+}
+.connect_btn1 {
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  text-shadow: 2px 1px yellow;
+  background-color: antiquewhite;
+}
+.connect_btn2 {
+  margin-top: 10px;
+  border: 2px solid black;
+  padding: 5px;
+  text-shadow: 2px 1px yellow;
+  background-color: antiquewhite;
+}
+.connect_btn1:hover {
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: azure;
+}
+.connect_btn2:hover {
+  border-radius: 10px;
+  font-size: 28px;
+  background-color: azure;
+}
+@media (max-width: 705px) {
+  .contain {
+    margin: 10px;
+    margin-left: 0px;
+  }
+  .image img {
+    width: 400px;
+    margin-top: 10px;
+    margin-right: 70px;
+  }
+  .header {
+    margin-left: 5px;
+  }
+  .email-label {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .email_part input {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .password-label-label {
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+  }
+  .password_part input {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  .checkbox-check {
+    margin-left: 5px;
+  }
+  .signin .btn {
+    margin-left: 5px;
+  }
+  .text-or {
+    margin-left: 5px;
+  }
+  .connect {
+    margin-left: 60px;
+    margin-right: 20px;
+    padding-left: 10px;
+  }
+}
+@media (max-width: 385px) {
+  .container img {
+    margin-left: 70px;
+    margin-top: 5px;
+  }
+  .image img {
+    width: 300px;
+    margin-top: 1px;
+  }
+  .password_part input {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+  .email_part input {
+    margin-left: 50px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 281px) {
+  .header {
+    margin-left: 80px;
+  }
+  .password-label {
+    margin-left: 180px;
+  }
+  .email-label {
+    margin-left: 160px;
+  }
+  .container img {
+    margin-left: 100px;
+    margin-top: 5px;
+  }
+  .image img {
+    width: 300px;
+    margin-top: 1px;
+  }
+  .password_part input {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .email_part input {
+    margin-left: 90px;
+    margin-top: 20px;
+  }
+  .connect {
+    margin-left: 50px;
+  }
+  .checkbox-check {
+    margin-left: 70px;
+  }
+  .signin .btn {
+    margin-left: 55px;
+  }
+  .text-or {
+    margin-left: 65px;
+  }
+}
